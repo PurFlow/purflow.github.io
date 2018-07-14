@@ -2,8 +2,8 @@
 title: Purflow.Github.Io
 timezone: UTC
 collections:
-  categories:
-    title: Categories
+  categorias:
+    title: Categorias
     output: true
   posts:
     title: Posts

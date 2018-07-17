@@ -1,6 +1,6 @@
 ---
-title: Purflow.Github.Io
-timezone: UTC
+title: Purflow
+timezone: America/Sao_Paulo
 collections:
   categorias:
     title: Categorias
@@ -11,3 +11,27 @@ collections:
   uploads:
     title: Uploads
     output: true
+defaults:
+- scope:
+    path: ''
+    type: pages
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: post
+description: We are madeira of love. We are Purple Flowers.
+baseurl: 
+url: https://purflow.github.io
+markdown: kramdown
+permalink: pretty/
+sass:
+  style: compressed
+exclude:
+- node_modules
+- desktop.ini
+- gulpfile.js
+- npm-debug.log
+- package.json

@@ -11,6 +11,10 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+
+    {% if page.link %}
+      <p><a href="{{ page.link }}" data-btn="" target="_blank">Acesse</a></p>
+    {% endif %}
   </div>
 
 </article>

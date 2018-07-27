@@ -22,7 +22,10 @@ defaults:
     type: posts
   values:
     layout: post
-description: We are madeira of love. We are Purple Flowers.
+    link: 
+    thumb_image: 
+    cover_image: 
+description: We are made of love. We are Purple Flowers.
 baseurl: 
 url: https://purflow.github.io
 markdown: kramdown
